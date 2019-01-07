@@ -28,6 +28,17 @@ class App extends Component {
       ninjas: ninjas  
     })
   }
+
+  //  This fires when the component first is mounted to the DOM (Happens only once)
+  componentDidMount(){
+    console.log("component mounted");
+  }
+  //  Fires when we get a change of state or props
+  componentDidUpdate(prevProps, prevState){
+    console.log('component updated');
+    console.log(prevProps, prevState)
+  }
+
   render() {
     return (
       <div className="App">
