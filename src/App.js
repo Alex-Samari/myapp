@@ -32,9 +32,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1>My first React app!</h1>
-        <h2>Welcome!</h2>
-        <Ninjas ninjas={this.state.ninjas} delNinja={this.delNinja} />
+        <br/>
         <AddNinja addNinja={this.addNinja}/>
+        <h4>Showing Ninjas older than 20 Years Old:</h4>
+        <Ninjas ninjas={this.state.ninjas} delNinja={this.delNinja} />
       </div>
     );
   }

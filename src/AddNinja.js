@@ -30,6 +30,7 @@ class AddNinja extends Component{
                     <input type="text" id="belt" onChange={this.handleChange}/>
                     &emsp;
                     <button>Submit</button>
+                    <hr/>
                 </form>
             </div>
         )
