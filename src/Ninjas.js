@@ -7,6 +7,7 @@ class Ninjas extends Component {
         const { ninjas } = this.props;
         //  alternative method
         //  const ninjas = this.props.ninjas;
+        //  mapping allows us to duplicate an array
         const ninjaList = ninjas.map(ninja => {
             return (
                 //  we need to define the key for the surrounding element so that react knows which element to update/delete
