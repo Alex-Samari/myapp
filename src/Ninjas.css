@@ -1,0 +1,4 @@
+/* This css file is automatically called whenever Ninjas.js is present since it was imported there */
+body{
+    background-color: pink;
+}

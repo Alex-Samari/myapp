@@ -1,4 +1,5 @@
 import React from 'react';
+import './Ninjas.css';
 
 //  passing the 'ninjas' props from App.js and assigning it to 'Ninjas' const
 const Ninjas = ({ninjas, delNinja}) => {
